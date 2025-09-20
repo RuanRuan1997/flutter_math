@@ -48,6 +48,7 @@ class SelectableMathSelectionGestureDetectorBuilder
           );
           // Should select word edge here, but not supporting now
           break;
+        case TargetPlatform.ohos:
         case TargetPlatform.android:
         case TargetPlatform.fuchsia:
         case TargetPlatform.linux:

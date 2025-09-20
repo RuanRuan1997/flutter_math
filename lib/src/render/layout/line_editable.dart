@@ -476,6 +476,7 @@ class RenderEditableLine extends RenderLine {
           cursorHeight + 2,
         );
         break;
+      case TargetPlatform.ohos:
       case TargetPlatform.android:
       case TargetPlatform.fuchsia:
       case TargetPlatform.linux:
